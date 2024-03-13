@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  padding: 120px;
+  background-color: lightgrey;
+  height: auto;
+}
+
+.RightPanel {
+  width: 65%;
+  background-color: #fff;
+  padding-right: 12px;
+  padding-left: 12px;
+  padding-bottom: 20px;
+}
+
+#Sprite {
+  width: 200px;
+  height: 200px;
+}
+
+.LeftPanel {
+  width: 35%;
+  background-color: #fff;
+  flex-direction: column;
+}
+
+.Logo {
+  object-fit: cover;
+  width: 60%;
+  padding-top: 40px;
+}
+
+.pokemonNameDiv {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  margin-top: 20px;
+  padding: 4px 20px;
+  box-shadow: 2px 2px 2px 3px rgba(143, 143, 143, 0.25);
+  border-radius: 6px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
