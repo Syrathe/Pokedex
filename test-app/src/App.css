@@ -15,7 +15,22 @@
   padding-bottom: 20px;
 }
 
+.BtnContainer {
+  display: flex;
+  align-items: flex-start;
+}
+.GoBackBtn {
+  margin-top: 40px;
+  justify-self: left;
+}
+
+.BackBtn {
+  align-self: left;
+}
+
 #Sprite {
+  padding-top: 140px;
+  padding-bottom: 140px;
   width: 200px;
   height: 200px;
 }
@@ -24,6 +39,57 @@
   width: 35%;
   background-color: #fff;
   flex-direction: column;
+}
+
+.TechData {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 60px;
+}
+
+.Status {
+  display: flex;
+  flex-direction: row;
+}
+
+.Bars {
+  padding-top: 36px;
+}
+
+.Basic6 {
+  display: flex;
+  flex-direction: row;
+}
+
+.BaseStats {
+  width: 50%;
+  text-align: left;
+}
+
+.SingleStat {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Empty {
+  width: 150px;
+  height: 20px;
+  background-color: lightslategray;
+  border-radius: 8px;
+  margin-left: 20px;
+  margin-bottom: 14px;
+}
+
+.Fill {
+  height: 20px;
+  background-color: red;
+  border-radius: 8px;
+}
+
+.Abilities {
+  width: 50%;
 }
 
 .Logo {
